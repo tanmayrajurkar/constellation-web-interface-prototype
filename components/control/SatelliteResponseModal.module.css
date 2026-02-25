@@ -1,0 +1,74 @@
+.status {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+
+.statusSuccess {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.statusError {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.payloadSection {
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.payloadLabel {
+  font-weight: 600;
+  color: #616161;
+  margin-bottom: 6px;
+}
+
+.tree {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: #fafafa;
+  padding: 8px;
+  max-height: 280px;
+  overflow: auto;
+}
+
+.treeRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 2px 0;
+  font-family: monospace;
+  font-size: 11px;
+}
+
+.treeToggle {
+  flex-shrink: 0;
+  width: 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: #616161;
+  font-size: 10px;
+}
+
+.treeKey {
+  color: #1565c0;
+  flex-shrink: 0;
+}
+
+.treeValue {
+  color: #212121;
+  word-break: break-all;
+}
+
+.treeChildren {
+  padding-left: 18px;
+  border-left: 1px solid #e0e0e0;
+  margin-left: 6px;
+}

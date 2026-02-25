@@ -1,0 +1,48 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 16px;
+  font-size: 12px;
+  align-items: baseline;
+}
+
+.label {
+  color: #616161;
+  font-weight: 500;
+}
+
+.value {
+  color: #212121;
+  word-break: break-all;
+}
+
+.sectionTitle {
+  font-size: 11px;
+  font-weight: 600;
+  color: #616161;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 12px 0 6px;
+}
+
+.sectionTitle:first-child {
+  margin-top: 0;
+}
+
+.commandList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: 11px;
+  max-height: 120px;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 6px 8px;
+  background: #fafafa;
+}
+
+.commandList li {
+  padding: 2px 0;
+}

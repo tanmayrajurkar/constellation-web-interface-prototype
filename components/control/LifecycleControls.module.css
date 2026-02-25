@@ -1,0 +1,64 @@
+.section {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #616161;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.btn {
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  color: #212121;
+}
+
+.btn:hover:not(:disabled) {
+  border-color: #1565c0;
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn.destructive {
+  border-color: #c62828;
+  color: #c62828;
+}
+
+.btn.destructive:hover:not(:disabled) {
+  background: #ffebee;
+}
+
+.safe {
+  border-left: 3px solid #2e7d32;
+}
+
+.destructiveGroup {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.destructiveGroup .title {
+  font-size: 11px;
+  color: #c62828;
+}
