@@ -164,6 +164,19 @@ Use the header navigation to switch between **Control Center** and **Observatory
 
 ---
 
+## Usage Notes
+
+Some interactions are available via double-click or context menu:
+
+- **Double-click a Satellite Card** to open detailed connection and metadata information.
+- **Right-click a Satellite Card** to send context commands (e.g., get_state, get_status).
+- **Double-click a log entry** in the Observatory to view full log details and tags.
+- Lifecycle buttons are enabled or disabled automatically based on the finite state machine.
+
+These interactions demonstrate how operator workflows would function in a real Constellation setup.
+
+---
+
 ## Future Work
 
 - WebSocket bridge for real Constellation communication
